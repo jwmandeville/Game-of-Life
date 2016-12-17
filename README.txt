@@ -2,8 +2,14 @@ Theo Chitayat
 Jackson Mandeville
 Alexander Booth
 
+Conway's Game of Life in Haskell
+The famous Game of Life is an cellular automaton simulation created by mathematician John Conway.
 
-Note that our version of Conway's Game of Life can only be run directly in the Haskell interpreter by commenting out the calls to printFPS and aliveCellCount, due to a font issue.
+It involves a series of states in which each pixel on a grid is "alive" (filled in) or "dead" (empty) based on the previous state. Using a small set of rules, the user gives an initial state which often creates surprisingly intricate and amazing geometrical patterns. Though the "game" only involves a single initial interaction from the user, it's definitely a lot of fun to play with!
+
+We used the functional language Haskell to recreate the game. We added a few features which show information of interest to the user, such as tracing which pixels have been filled at some point throughout the current simulation and showing the number of alive cells at any given time. A list of all the functions can be found below. Enjoy!
+
+Note that our version of the Game of Life can only be run directly in the Haskell interpreter by commenting out the calls to printFPS and aliveCellCount, due to a font issue.
 Instead we have included a compiled version for speed and simplicity. It was compiled on a Debian based Linux system.
 In order to compile the code, the Gloss graphics package will need to be installed. 
 
