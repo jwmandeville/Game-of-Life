@@ -3,7 +3,7 @@ Jackson Mandeville
 Alexander Booth
 
 
-It can only be run directly in the Haskell interpreter by commenting out the calls to printFPS and aliveCellCount, due to a font issue.
+Note that our version of Conway's Game of Life can only be run directly in the Haskell interpreter by commenting out the calls to printFPS and aliveCellCount, due to a font issue.
 Instead we have included a compiled version for speed and simplicity. It was compiled on a Debian based Linux system.
 In order to compile the code, the Gloss graphics package will need to be installed. 
 
